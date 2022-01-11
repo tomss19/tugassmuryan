@@ -1,5 +1,12 @@
-<?php include "Header.php"?>
-<?php include "Left.php"?>
+<?php
+    session_start();
+    // Pengecekan fungsi udah login atau belum
+    if ( (!isset($_SESSION['user'])) && ($_SESSION['user'] != 'w1zdom')) {
+        header("Location: weblogin.php");
+    } else {
+?>
+<?php require "Header.php"?>
+<?php require "Left.php"?>
     <!-- Element panel kanan -->
             <div id="right">
                 <div id="top-right">
@@ -86,3 +93,7 @@
         </div><!--wrap-->
     </body>
 </html>
+<?php 
+}
+
+?>

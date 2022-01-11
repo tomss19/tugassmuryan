@@ -21,5 +21,15 @@
                     <li><a href="Esport.php"><span>E-Sport</span></a></li>
                     <li><a href="Clan.php"><span>Clan Medal</span></a></li>
                     <li><a href="Add.php"><span>Addtance</span></a></li>
+                    <!-- fungsi ngecek udah login atau belum -->
+<?php
+    // kalau udah login
+    if($_SESSION['user'] == 'w1zdom') { // tampilin menu logout
+        ?>
+            <li><a href="Logout.php"><span>Logout</span></a></li>
+        <?php
+    }
+?>
+                    <!-- fungsi ngecek udah login atau belum -->
                 </ul>
             </div><!--menu-->
