@@ -82,7 +82,15 @@
 <?php
             }
             break;
-        
+        case "downtown" :
+            {
+?>
+        <!-- taro kode html disini -->
+
+        <!-- taro kode html berakhir disini -->
+<?php
+            }
+            break;
         default:
             # code...
             break;
