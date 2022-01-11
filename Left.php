@@ -6,7 +6,7 @@
 
                     <div id="content-tl">
                         <ul>
-                            <li><a href="#">luxxvile</a></li>
+                            <li><a href="index.php?data=map&name=luxxvile">Luxxvile</a></li>
                             <li><a href="#">Downton</a></li>
                             <li><a href="#">Safe House</a></li>
                             <li><a href="#">Mid Town</a></li>

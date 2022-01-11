@@ -1,35 +1,11 @@
 <?php
-    session_start();
-    // Pengecekan fungsi udah login atau belum
-    if ( (!isset($_SESSION['user'])) && ($_SESSION['user'] != 'w1zdom')) {
-        header("Location: weblogin.php");
-    } else {
+    switch ($_GET['name']) {
+        case 'luxxvile':
+            { // kode PHP untuk tiap map ditaro sini
 ?>
-<?php require "Header.php"?>
-<?php require "Left.php"?>
-    <!-- Element panel kanan ini bagian dinamis -->
-            <div id="right">
-                <?php
-                    if(isset($_GET['data'])) {
-                        switch ($_GET['data']) {
-                            case 'berita':
-                                include "Berita.php";
-                                break;
-                            case 'add':
-                                include "Add.php";
-                                break;    
-                            case 'map':
-                                include "datamap.php";
-                                break;
-                            default:
-                                # code...
-                                break;
-                        }
-                    } else {
-                ?>
-                    <div id="top-right">
+            <div id="top-right">
                     <div id="title">
-                        Event Point Blank
+                        MAP LUXXVILE
                     </div><!--title-->
                     
                     <div id="content-tr"><img src="foto.png" width="150px" height="auto" vspace="-10" hspace="10" align="left">
@@ -102,18 +78,12 @@
                         </div>
                     </div><!--bt-left-->
                 </div><!--bottom-right-->
-                <?php
-                    }
-                ?>
-            </div><!--right-->
-    <!-- Element panel kanan berakhir disini -->
-<?php include "Footer.php"?>
 
-            
-        </div><!--wrap-->
-    </body>
-</html>
-<?php 
-}
-
-?>
+<?php
+            }
+            break;
+        
+        default:
+            # code...
+            break;
+    }

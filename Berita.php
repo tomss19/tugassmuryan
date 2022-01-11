@@ -1,5 +1,3 @@
-<?php include "Header.php"?>
-<?php include "Left.php"?>
             <div id="right">
             <div id="tr-left-berita"><img src="pbsl.jpg" width="200px" height="auto">
             </div><!--tr-left-berita-->
