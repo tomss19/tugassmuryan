@@ -1,5 +1,6 @@
 <?php include "Header.php"?>
 <?php include "Left.php"?>
+    <!-- Element panel kanan -->
             <div id="right">
                 <div id="top-right">
                     <div id="title">
@@ -78,7 +79,7 @@
                 </div><!--bottom-right-->
                 
             </div><!--right-->
-
+    <!-- Element panel kanan berakhir disini -->
 <?php include "Footer.php"?>
 
             
