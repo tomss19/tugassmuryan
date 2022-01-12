@@ -28,12 +28,15 @@
                                 include "Clan.php";
                                 break; 
                             case 'rank':
+                                include "Rank.php";
+                                break;
+                            case 'R1':
                                 include "R1.php";
                                 break;
-                            case 'rank':
+                            case 'R2':
                                 include "R2.php";
                                 break;  
-                            case 'rank':
+                            case 'R3':
                                 include "R3.php";
                                 break;     
 
