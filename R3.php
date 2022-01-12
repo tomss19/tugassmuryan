@@ -1,6 +1,4 @@
-<?php include "Header.php"?>
-<?php include "Left.php"?>
-            <div id="right">
+           <div id="right">
             <div id="tr-left-rank3"><img src="tro.jpg" width="202px" height="280px">
             </div><!--tr-left-rank3-->
                 <div id="top-right-rank3">

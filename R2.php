@@ -1,5 +1,3 @@
-<?php include "Header.php"?>
-<?php include "Left.php"?>
             <div id="right">
             <div id="tr-left-rank2"><img src="tr.jpg" width="202px" height="280px">
             </div><!--tr-left-rank2-->

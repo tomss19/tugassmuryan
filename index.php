@@ -21,6 +21,22 @@
                             case 'map':
                                 include "datamap.php";
                                 break;
+                            case 'espt':
+                                include "Esport.php";
+                                break;
+                            case 'clan':
+                                include "Clan.php";
+                                break; 
+                            case 'rank':
+                                include "R1.php";
+                                break;
+                            case 'rank':
+                                include "R2.php";
+                                break;  
+                            case 'rank':
+                                include "R3.php";
+                                break;     
+
                             default:
                                 # code...
                                 break;

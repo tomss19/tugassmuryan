@@ -7,10 +7,10 @@
                     <div id="content-tl">
                         <ul>
                             <li><a href="index.php?data=map&name=luxxvile">Luxxvile</a></li>
-                            <li><a href="#">Downton</a></li>
+                            <li><a href="#">Downtown</a></li>
                             <li><a href="#">Safe House</a></li>
                             <li><a href="#">Mid Town</a></li>
-                            <li><a href="#">Provane</a></li>
+                            <li><a href="#">Provance</a></li>
                             <li><a href="#">Burning Hall</a></li>
                         </ul>
                     </div><!--content-tl-->

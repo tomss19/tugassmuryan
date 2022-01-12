@@ -1,5 +1,3 @@
-<?php include "Header.php"?>
-<?php include "Left.php"?>
             <div id="right">
                 <div id="top-right">
                 <div id="title" style="background-color:#48CCCD" >

@@ -1,6 +1,4 @@
-<?php include "Header.php"?>
-<?php include "Left.php"?>
-            <div id="right">
+           <div id="right">
             <div id="tr-left-espt"><img src="kill.jpg" width="202px" height="280px">
             </div><!--tr-left-espt-->
                 <div id="top-right-espt">
